@@ -1,0 +1,168 @@
+ 
+  
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+
+
+
+.mainSerchDiv {
+  background:rgb(16 16 16);
+  height:100vh;
+}
+
+.divForinpMain {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.inpBtnDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputStyle {
+  height:50px;
+  width:400px;
+  margin:5px;
+  font-size:25px;
+  font-family: 'Heebo', sans-serif;
+  margin:2px;
+  padding:3px;
+}
+
+input[type="text"] {
+  
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin:10px;
+  border: 2px solid gray;
+  transition: all 0.3s ease-in-out;
+}
+input[type="text"]:focus {
+  border-color: blue;
+  outline: none;
+}
+
+button {
+  margin:10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+
+.serchContent {
+  color:white;
+  background:rgb(16 16 16);
+}
+
+.heading {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: #26272b;
+    box-shadow: 0px 0px 12px #18191b;
+    border-radius: 8px;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+    font-weight: 700;
+}
+
+.heading:hover {
+    transform: scale(1.04);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+
+.movieImageStyle {
+  height:300px;
+  width:200px;
+  border-radius:5px;
+  box-shadow: 3px 3px 10px lightblue;
+}
+
+.movie-title {
+  
+  font-size:20px;
+  text-align:center;
+  margin:10px;
+  padding:2px;
+}
+
+.movie-release-date {
+  
+  vertical-align:center;
+  text-align:center;
+  margin:10px;
+  padding:2px;
+}
+
+.movie-overview {
+  
+  text-align: justify;
+  margin:15px;
+  padding:2px;
+}
+
+.skeletonDiv {
+  
+  margin: 2rem 1rem
+  
+  
+} 
+
+.reacentMovieHeading {
+  
+  text-align:center;
+  font-family: 'Cinzel', serif;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .heading{
+    display:block; 
+ }
+  .inputStyle{
+    width:250px;
+  }
+  .movieImageStyle {
+    text-align:center;
+    height:200px;
+    width:180px
+  }
+ .inpBtnDiv {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+  .button{
+    align-items: center;
+    width:200px;
+  }
+  .inpBtnDiv {
+    width:100px
+  }
+}
